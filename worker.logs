@@ -1,0 +1,954 @@
+[DB_LOG] INSERT audit_queue: 1 record(s) in 583ms
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 373ms
+[DB_LOG] INSERT site_audits: 1 record(s) in 291ms
+ ⚠ Content analyzer received empty or invalid text input
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:35.776Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:35.777Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:35.777Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:35.778Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:00:36.338Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+[DB_LOG] INSERT audit_queue: 1 record(s) in 100ms
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 107ms
+[DB_LOG] INSERT site_audits: 1 record(s) in 105ms
+ ⚠ Content analyzer received empty or invalid text input
+[domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:40.033Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[domain:primary] ⚠ ads.txt validation skipped
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:40.033Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:40.033Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:40.033Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[pub:e3163306] ⚠ No GAM data available for publisher
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:00:40.493Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+[DB_LOG] INSERT audit_queue: 1 record(s) in 106ms
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 101ms
+[DB_LOG] INSERT site_audits: 1 record(s) in 110ms
+ ⚠ Content analyzer received empty or invalid text input
+[domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+[domain:primary] ⚠ ads.txt validation skipped
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:43.779Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:43.779Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:43.779Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:43.779Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:00:43.871Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: 6d0a51af-86db-452a-9dea-2d50373683db
+Site: business.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[pub:6035a1ae] ⚠ No GAM data available for publisher
+[DB_LOG] UPDATE site_audits: 1 record(s) in 182ms
+AUDIT SUMMARY - business.techssoftwares.com
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:00:35.149Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:00:35.149Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:35.151Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:35.151Z
+    domain: business.techssoftwares.com
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 30
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+### module(Ad Behavior Analysis)
+found(issues:["No ad density detected", "No auto-refresh activity", "No viewport occlusion observed"])
+cause:["Absence of monetization suggests possible non-operational status", "Lack of ad interactions indicates minimal user engagement"]
+fix:["Implement legitimate ad networks with transparent placement policies", "Integrate ad tracking for performance monitoring"]
+impact(score_change="Potential risk score decrease due to low engagement signals")
+good(["Compliance with ad placement guidelines", "No aggressive user experience violations"])
+review_summary("Zero ad metrics indicate either a new/unmonetized site or potential fraud indicators. Requires validation of operational status.")
+### module(Content Quality Indicators)
+found(issues:["Text entropy at minimum", "Readability score at baseline", "Content freshness absent"])
+cause:["Placeholder content or domain parking", "Possible scraping without original value addition"]
+fix(["Develop original content with semantic depth", "Implement content freshness protocols (e.g., weekly updates)"])
+impact(score_change="High risk multiplier due to content void - likely MFA indicator")
+good(["AI-generated content likelihood at 0%", "No clickbait patterns detected"])
+review_summary("Critical content deficiencies suggest either underdevelopment or deceptive practices. Urgent content strategy overhaul needed.")
+### module(Technical Infrastructure)
+found(issues:["Page load performance at minimum", "Domain reputation conflict with technical metrics"])
+cause:["Server configuration issues", "Unoptimized resource loading", "Possible hosting provider limitations"]
+fix(["Optimize image assets and scripts", "Upgrade hosting infrastructure", "Implement caching mechanisms"])
+impact(score_change="Performance deficit contributes to 30%+ risk score inflation")
+good(["Valid SSL certificate", "Zero broken links", "Transparent WHOIS registration"])
+review_summary("Technical foundation is structurally sound but severely underperforming. Requires immediate optimization to avoid user-exit risk.")
+### module(Risk Probability Assessment)
+found(issues:["NaN MFA probability", "No historical risk benchmarks", "Confidence level at minimum"])
+cause:["Insufficient data volume for Bayesian modeling", "Domain age unknown prevents trend analysis"]
+fix(["Collect 3+ months traffic data", "Implement analytics tracking for historical baselineing"])
+impact(score_change="Unquantifiable risk exposure - default high-risk assumption applies")
+good(["Stable risk direction", "No anomaly indicators detected"])
+review_summary("Complete data void prevents accurate risk modeling. Requires fundamental data collection before reliable assessment.")
+### module(Policy & Compliance Violations)
+found(issues:["No explicit violations detected"])
+cause:["Absence of policy-breaking content", "Compliance mechanisms actively maintained"]
+fix(["Maintain current compliance protocols", "Regular policy audits every 90 days"])
+impact(score_change="Positive contributor to risk score reduction")
+good(["AdChoices/IAB standards compliance", "Transparent privacy practices"])
+review_summary("Strong compliance posture but vulnerable to future violations without proactive monitoring. Maintain vigilance.")
+### module(GAM Performance Signals)
+found(issues:["No CTR/eCPM/fill rate data available"])
+cause:["Unmonetized inventory or tracking implementation failures"]
+fix(["Deploy full GAM analytics suite", "Validate publisher group alignment with ad networks"])
+impact(score_change="Revenue consistency metrics unavailable - default low-value assumption")
+good(["Publisher group alignment confirmed", "Normal revenue patterns detected"])
+review_summary("Critical performance data gaps prevent monetization assessment. Requires urgent technical integration.")
+### combine()
+**Overall Assessment:**  
+The site exhibits severe operational deficiencies across content, technical performance, and data collection. While compliance and infrastructure fundamentals are intact, the absence of core metrics (0% ad density, 0/100 content scores) suggests either a placeholder domain or sophisticated fraud mechanism. Immediate priorities include:  
+1. Implement content creation protocols to address entropy and freshness gaps  
+2. Optimize technical performance to resolve load deficiencies  
+3. Deploy analytics tracking for data-driven risk modeling  
+4. Validate monetization setup through ad network integration  
+**Risk Outlook:** Without intervention, the site remains high-risk due to unquantifiable engagement patterns and content voids. Current compliance status provides temporary mitigation but cannot offset fundamental operational weaknesses.
+    interpretation: {"rawResponse":"\n\n### module(Ad Behavior Analysis)\nfound(issues:[\"No ad dens
+    timestamp: 2025-11-12T12:00:43.738Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"b
+======================================================================
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:00:44.259Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+[DB_LOG] INSERT site_audits: 1 record(s) in 118ms
+ ⚠ Content analyzer received empty or invalid text input
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:44.908Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:44.908Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:44.908Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:44.909Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:00:45.186Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:00:45.598Z
+Request ID: 86f004c0-39b2-4743-89f0-53682544c1b4
+Audit ID: 3a1e7966-8db2-45a8-b8fe-a54c00b08208
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[DB_LOG] UPDATE site_audits: 1 record(s) in 137ms
+AUDIT SUMMARY - primary
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:00:40.016Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:00:40.016Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:40.016Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:40.016Z
+    domain: primary
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 15
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: e3163306-a923-4d90-8663-f91107a6f6e5
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+Here is the TOON analysis of the audit findings:
+**module(ad_behavior)**
+found(issues:[])
+cause:[]
+fix:[]
+impact(score_change="0")
+good:["Ad density 0%", "No scroll jacking", "No aggressive positioning"]
+review_summary("Perfect ad behavior compliance. Zero intrusive practices detected. Maintain strict ad placement policies.")
+**module(content_quality)**
+found(issues:["Text entropy 0/100", "Readability 0/100", "Content freshness 0/100", "Content similarity 0%"])
+cause:["Complete absence of substantive content", "No evidence of human curation or original material"]
+fix:["Implement original content creation", "Integrate content freshness mechanisms", "Remove recycled/placeholder text", "Optimize for readability"]
+impact(score_change="-25")
+good:[]
+review_summary("Critical content deficiencies. All quality metrics show null activity. Urgent content overhaul required to avoid MFA classification.")
+**module(technical_infrastructure)**
+found(issues:[])
+cause:[]
+fix:[]
+impact(score_change="0")
+good:["Valid SSL certificate", "Zero broken links", "Transparent WHOIS"]
+review_summary("Strong technical foundation. All infrastructure components meet security standards. Maintain certificate renewals and link integrity checks.")
+**module(risk_assessment)**
+found(issues:["NaN overall MFA probability", "No component data", "No benchmark comparison"])
+cause:["Insufficient operational data for Bayesian modeling", "Absence of traffic/risk history", "Missing comparative metrics"]
+fix:["Collect baseline traffic data", "Implement historical risk tracking", "Establish industry benchmarks"]
+impact(score_change="-15")
+good:["Domain reputation: Established", "Risk direction: Stable"]
+review_summary("Risk engine cannot function without operational data. Domain reputation is positive but insufficient for risk scoring. Data collection imperative.")
+**module(policy_compliance)**
+found(issues:[])
+cause:[]
+fix:[]
+impact(score_change="0")
+good:["Compliant with AdChoices, Google, IAB standards"]
+review_summary("Full policy compliance confirmed. All detected practices align with major advertising standards. Maintain audit trail for regulatory reviews.")
+**module(gam_performance)**
+found(issues:[])
+cause:[]
+fix:[]
+impact(score_change="0")
+good:["Revenue consistent", "Publisher alignment confirmed"]
+review_summary("Monetary metrics show stability but lack benchmark context. Consistent revenue without traffic data requires verification.")
+**combine()**
+review_summary("Critical content deficiencies (0% scores) and missing operational data (NaN risk score) present severe quality concerns despite technically sound infrastructure and policy compliance. Domain appears inactive or placeholder-based. Immediate content creation and traffic data collection required to resolve core deficiencies. Technical and compliance elements are strengths to maintain during remediation.")
+    interpretation: {"rawResponse":"\n\nHere is the TOON analysis of the audit findings:\n\n**module
+    timestamp: 2025-11-12T12:00:45.488Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"p
+======================================================================
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 104ms
+[DB_LOG] INSERT audit_queue: 1 record(s) in 128ms
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 144ms
+[DB_LOG] INSERT site_audits: 1 record(s) in 102ms
+ ⚠ Content analyzer received empty or invalid text input
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:52.384Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:00:52.384Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:52.384Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:00:52.384Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:00:52.722Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:00:54.375Z
+Request ID: bcdeb1a5-548f-49cd-82c3-5afb3c73fb77
+Audit ID: 0bc28caa-6016-459c-ab6b-9e1d5b826265
+Site: primary
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[DB_LOG] UPDATE site_audits: 1 record(s) in 154ms
+AUDIT SUMMARY - primary
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:00:43.773Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:00:43.773Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:43.773Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:43.773Z
+    domain: primary
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 15
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: 6035a1ae-b4e7-4f1d-bf16-5362b2781b8f
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+### Module: Ad Behavior Analysis  
+**found(issues:** ["No ad activity detected"]  
+**cause:** ["Site lacks monetization implementation or is a placeholder domain"]  
+**fix:** ["Integrate legitimate ad networks with transparent placement guidelines"]  
+**impact(score_change="Low risk from ad fraud patterns")  
+**good:** ["No aggressive ad behaviors present"]  
+**review_summary:** "Absence of ads reduces fraud risk but indicates non-operational monetization. Implement compliant ad placements to enable risk assessment."  
+### Module: Content Quality Indicators  
+**found(issues:** ["Critical content deficiencies", "Zero readability", "No content freshness"]  
+**cause:** ["Minimal/zero original content creation", "Potential domain squatting or placeholder site"]  
+**fix:** ["Develop high-value original content with regular updates", "Implement content optimization framework"]  
+**impact(score_change="Severe negative impact on risk score")  
+**good:** ["Content similarity at 0% indicates no duplication"]  
+**review_summary:** "Content void creates fundamental quality issues. Urgent content development required to establish legitimacy."  
+### Module: Technical Infrastructure  
+**found(issues:** ["Catastrophic page load performance"]  
+**cause:** ["Unoptimized resources, server inefficiencies, or minimal site structure"]  
+**fix:** ["Conduct performance audit, optimize assets, upgrade hosting, implement caching"]  
+**impact(score_change="Significantly degrades user experience and risk score")  
+**good:** ["Valid SSL, no broken links, established domain reputation"]  
+**review_summary:** "Technical foundations are sound except for performance. Optimization is critical for usability."  
+### Module: Risk Probability Assessment  
+**found(issues:** ["NaN% MFA probability", "0% confidence level"]  
+**cause:** ["Insufficient behavioral data due to content/ad absence"]  
+**fix:** ["Generate measurable traffic/content to populate risk engine parameters"]  
+**impact(score_change="Unreliable score due to data deficiency")  
+**good:** ["Risk direction stable"]  
+**review_summary:** "Risk assessment is non-functional without operational data. Requires content/ad implementation
+    interpretation: {"rawResponse":"\n\n### Module: Ad Behavior Analysis  \n**found(issues:** [\"No 
+    timestamp: 2025-11-12T12:00:54.254Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"p
+======================================================================
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 100ms
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:00:59.396Z
+Request ID: 0695b033-f86f-43a9-80aa-f00edc74ea3e
+Audit ID: ab0b67bb-5b1d-4372-b5a5-6013c32daa2f
+Site: digibliss.in
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[DB_LOG] UPDATE site_audits: 1 record(s) in 874ms
+AUDIT SUMMARY - digibliss.in
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:00:50.773Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:00:50.773Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:50.773Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:50.773Z
+    domain: digibliss.in
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 29
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+### AdBehavior
+found(issues:["No ad presence detected", "Zero ad density and refresh rates"])
+cause:["Complete absence of monetization elements", "Potential site is non-monetized or lacks ad implementation"]
+fix:["Implement legitimate ad networks", "Integrate compliant ad placements with transparent disclosures"]
+impact(score_change="-20% risk inflation due to missing monetization signals")
+good(["No aggressive ad behaviors detected", "Absence of scroll jacking/occlusion reduces UX violations"])
+review_summary("Zero ad activity suggests either new site or deliberate non-monetization. Requires compliant ad integration to establish legitimacy.")
+### ContentQuality
+found(issues:["Zero text entropy", "Complete content freshness deficit", "Total similarity absence"])
+cause:["Content generation failure", "Possible placeholder site or indexing failure", "Lack of content recycling mechanisms"]
+fix(["Deploy original content strategy", "Implement CMS with freshness tracking", "Use plagiarism detection tools"])
+impact(score_change="-30% quality penalty from content vacuum")
+good(["No AI-generated content detected", "Zero clickbait indicators"])
+review_summary("Critical content void exists across all metrics. Urgent content development required to avoid abandonment penalties.")
+### TechnicalInfrastructure
+found(issues:["Catastrophic page load failure", "Established domain reputation mismatch"])
+cause(["Server performance degradation", "Domain age unknown despite reputation status", "Possible hosting issues"])
+fix(["Optimize assets and server response", "Verify domain registration age", "Upgrade hosting infrastructure"])
+impact(score_change="-15% technical risk from load failure")
+good(["Valid SSL certificate", "Zero broken links", "Transparent WHOIS data"])
+review_summary("Severe performance issues contradict established reputation. Requires immediate technical remediation.")
+### LayoutUX
+found(issues:["None detected"])
+cause(["No layout inconsistencies", "Perfect rendering compliance"])
+fix(["Maintain responsive design standards"])
+impact(score_change="0% (baseline healthy)"))
+good(["Zero viewport inconsistencies", "No rendering anomalies", "Clean DOM structure"])
+review_summary("Exceptional UX metrics indicate proper implementation. Should be preserved during content deployment.")
+### RiskAssessment
+found(issues:["NaN MFA probability", "Zero confidence score", "No historical data"])
+cause(["Data deficiency from missing traffic/content", "Bayesian engine requires baseline metrics", "No previous risk history"])
+fix(["Generate content and traffic", "Implement analytics tracking", "Establish historical data points"])
+impact(score_change="Unquantifiable risk exposure due to missing inputs"))
+good(["Stable risk direction", "Normal velocity", "No anomalies detected"])
+review_summary("Risk engine cannot operate without baseline data. Requires content/traffic generation to enable assessment.")
+### GAMPerformance
+found(issues:["No benchmark data", "Publisher group misalignment alert"])
+cause(["Absence of monetization data", "Potential network mismatch", "Revenue consistency claim without metrics"])
+fix(["Connect to ad networks", "Verify publisher group classification", "Implement performance tracking"])
+impact(score_change="0% (data void)"))
+good(["Consistent revenue pattern", "Publisher alignment claimed"])
+review_summary("Monetization data gap prevents validation. Requires ad network integration and performance monitoring.")
+### PolicyCompliance
+found(issues:["None detected"])
+cause(["Full adherence to standards", "Active compliance maintenance"])
+fix(["Continue policy audits", "Monitor regulatory updates"])
+impact(score_change="0% (baseline compliance)"))
+good(["AdChoices/GDPR/IAB compliant", "No violations recorded"])
+review_summary("Strong compliance posture. Should be reinforced with periodic policy reviews.")
+    interpretation: {"rawResponse":"\n\n### AdBehavior\nfound(issues:[\"No ad presence detected\", \
+    timestamp: 2025-11-12T12:00:59.265Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"d
+======================================================================
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 195ms
+[req:56fd90ae] ⚠ [56fd90ae-3aa4-4f23-80c0-6945e7c89e47] AIAssistance: Attempt 1 failed
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:01:26.219Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: c314a0f7-c111-4021-bcf8-460119fdd6d0
+Site: tech.techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[DB_LOG] UPDATE site_audits: 1 record(s) in 155ms
+AUDIT SUMMARY - tech.techssoftwares.com
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:00:44.371Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:00:44.371Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:44.371Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:00:44.371Z
+    domain: tech.techssoftwares.com
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 30
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+    interpretation: {"rawResponse":"","parsedFindings":{"modules":{},"summary":null,"primaryFindings
+    timestamp: 2025-11-12T12:01:26.098Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"t
+======================================================================
+[DB_LOG] INSERT site_audits: 1 record(s) in 99ms
+ ⚠ Content analyzer received empty or invalid text input
+[DETAILED CONTENTANALYZER REPORT]
+Timestamp: 2025-11-12T12:01:27.230Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { textLength, analysisTimestamp, entropy, similarity, readability, ai, clickbait, freshness ... }
+  error: null
+[DETAILED ADANALYZER REPORT]
+Timestamp: 2025-11-12T12:01:27.230Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { success, data  }
+  error: null
+[DETAILED POLICYCHECKER REPORT]
+Timestamp: 2025-11-12T12:01:27.230Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, jurisdiction, violations, complianceLevel, policies, summary, executionTime ... }
+  error: null
+[DETAILED TECHNICALCHECKER REPORT]
+Timestamp: 2025-11-12T12:01:27.230Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { timestamp, domain, components, technicalHealthScore, summary, executionTime  }
+  error: null
+[DETAILED SCORER REPORT]
+Timestamp: 2025-11-12T12:01:27.545Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { auditId, publisherId, riskScore, mfaProbability, scores, trend, benchmarks, patternDrift ... }
+  error: null
+ ⚠ Rate limited (429), retry attempt 1/3
+[DETAILED AIASSISTANCE REPORT]
+Timestamp: 2025-11-12T12:01:41.721Z
+Request ID: 56fd90ae-3aa4-4f23-80c0-6945e7c89e47
+Audit ID: eb01b49c-26cd-467a-afaa-c98869e1c55d
+Site: techssoftwares.com
+EXECUTION STATUS:
+  Status: SUCCESS
+DATA COLLECTED:
+  data: Object { llmResponse, interpretation, timestamp, metadata  }
+  error: null
+[DB_LOG] UPDATE site_audits: 1 record(s) in 133ms
+AUDIT SUMMARY - techssoftwares.com
+======================================================================
+CRAWLER
+  Status: PROCESSED
+CONTENTANALYZER
+  Status: PROCESSED
+ADANALYZER
+  Status: PROCESSED
+POLICYCHECKER
+  Status: PROCESSED
+TECHNICALCHECKER
+  Status: PROCESSED
+SCORER
+  Status: PROCESSED
+AIASSISTANCE
+  Status: PROCESSED
+======================================================================
+Total Issues Found: 0
+Total Positive Findings: 0
+AUDIT FINDINGS
+======================================================================
+[CRAWLER]
+  data:
+    content: []
+    ads: []
+[CONTENTANALYZER]
+  data:
+    textLength: 0
+    analysisTimestamp: 2025-11-12T12:01:26.674Z
+    entropy: {"entropyScore":0,"isLowEntropy":false,"contentLength":0,"flagStatus":"clean"}
+    similarity: {"simhashFingerprint":"","contentHash":"","tokenCount":0}
+    readability: {"readabilityScore":100,"gradeLevel":0,"readabilityLevel":"unknown","humanAuthor
+[ADANALYZER]
+  data:
+    success: true
+    data: {"timestamp":"2025-11-12T12:01:26.674Z","metadata":{"totalNetworkRequests":0,"to
+[POLICYCHECKER]
+  data:
+    timestamp: 2025-11-12T12:01:26.674Z
+    domain: undefined
+    jurisdiction: {"primaryJurisdiction":"US","allJurisdictions":[],"signals":{"tld":null,"languag
+    violations: []
+    complianceLevel: compliant
+[TECHNICALCHECKER]
+  data:
+    timestamp: 2025-11-12T12:01:26.674Z
+    domain: techssoftwares.com
+    components: {"performance":{"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0
+    technicalHealthScore: 30
+    summary: {"totalIssues":1,"criticalIssues":["SSL Certificate issue: Invalid"],"warnings":
+[SCORER]
+  data:
+    auditId: undefined
+    publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+    riskScore: 0.00857142857142857
+    mfaProbability: 0.002243829468960359
+    scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+[AIASSISTANCE]
+  data:
+    llmResponse: 
+    interpretation: {"rawResponse":"","parsedFindings":{"modules":{},"summary":null,"primaryFindings
+    timestamp: 2025-11-12T12:01:41.588Z
+    metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"t
+======================================================================
+[DB_LOG] UPDATE audit_queue: 1 record(s) in 114ms

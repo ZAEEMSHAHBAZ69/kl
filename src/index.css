@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #1a1a1a inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Scrollbar styling for approval queue table - horizontal at bottom */
+.approval-queue-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #48a77f #1E1E1E;
+  min-height: 12px;
+}
+
+.approval-queue-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+
+.approval-queue-scroll::-webkit-scrollbar-track {
+  background: #1E1E1E;
+  border-radius: 4px;
+}
+
+.approval-queue-scroll::-webkit-scrollbar-thumb {
+  background: #48a77f;
+  border-radius: 4px;
+}
+
+.approval-queue-scroll::-webkit-scrollbar-thumb:hover {
+  background: #3d9166;
+}

@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: gam-reports-worker
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    scaling:
+      minInstances: 0
+      maxInstances: 1
+    autoscaling:
+      enabled: true
+      minInstances: 0
+      maxInstances: 1
+      targetMemoryPercent: 80
+      targetCPUPercent: 80
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: WORKER_SECRET
+        sync: false
+      - key: PORT
+        value: 10000
+      - key: REQUEST_TIMEOUT
+        value: 9000

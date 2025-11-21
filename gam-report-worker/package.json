@@ -1,0 +1,26 @@
+{
+  "name": "gam-report-worker",
+  "version": "1.0.0",
+  "description": "Node.js worker for fetching Google Ad Manager reports and storing in Supabase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "express": "^4.18.2",
+    "google-auth-library": "^9.14.1",
+    "googleapis": "^144.0.0",
+    "node-fetch": "^3.3.2",
+    "axios": "^1.6.0",
+    "csv-parse": "^5.5.3",
+    "fast-xml-parser": "^4.3.2",
+    "zlib": "^1.0.5",
+    "tslib": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
